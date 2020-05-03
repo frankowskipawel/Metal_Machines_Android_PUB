@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_devices"
+            android:icon="@drawable/ic_devices_black_24dp"
+            android:title="Maszyny" />
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/menu_customers" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="@string/menu_categories" />
+    </group>
+
+    <item android:title="Narzędzia">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_person_pin_black_24dp"
+                android:title="@string/menu_settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/menu_about" />
+        </menu>
+    </item>
+
+</menu>

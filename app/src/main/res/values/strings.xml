@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Metal Machines</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Metal Machines</string>
+    <string name="nav_header_subtitle">niezalogowany</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logowanie</string>
+
+    <string name="menu_home">Strona główna</string>
+    <string name="menu_devices">Urządzenia</string>
+    <string name="menu_customers">Kontrahenci</string>
+    <string name="menu_categories">Kategorie</string>
+    <string name="menu_settings">Logowanie</string>
+    <string name="menu_about">Pomoc</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Szukaj</string>
+    <string name="short_name">Nazwa skrócona</string>
+    <string name="full_name">Nazwa pełna</string>
+    <string name="adress">Adres</string>
+    <string name="zip_code">Kod Pocztowy</string>
+    <string name="city">Miasto</string>
+    <string name="nip">NIP</string>
+    <string name="regon">REGON</string>
+    <string name="phone_number">Nr. tel.</string>
+    <string name="add">Dodaj</string>
+    <string name="addNew">dodaj nowy</string>
+    <string name="save">zapisz</string>
+    <string name="edit">edytuj</string>
+    <string name="delete">usuń</string>
+    <string name="id">id</string>
+    <string name="name">Nazwa</string>
+    <string name="devices_name">Nazwa Urządzenia</string>
+    <string name="no_connection">Błąd połaczenia z bazą danych. Sprawdź połączenie internetowe.</string>
+
+    <item type="id" name="text1" />
+    <item type="id" name="text2" />
+</resources>

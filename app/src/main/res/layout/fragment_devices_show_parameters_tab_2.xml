@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="1 etap" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="2 etap" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="3 etap" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView422gdsf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Czas kroku" />
+
+                <EditText
+                    android:id="@+id/etap1_czas_kroku"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+
+                <EditText
+                    android:id="@+id/etap2_czas_kroku"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+
+                <EditText
+                    android:id="@+id/etap3_czas_kroku"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textView436gdsgds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ms" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView42gdsgds7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wys. przeb." />
+
+                <EditText
+                    android:id="@+id/etap1_wysokosc_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap2_wysokosc_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap3_wysokosc_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textViegfjfw433"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mm" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textViecxgdw4221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gaz przeb" />
+
+                <Spinner
+                    android:id="@+id/etap1_gaz_przeb"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:spinnerMode="dropdown" />
+
+                <Spinner
+                    android:id="@+id/etap2_gaz_przeb"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/etap3_gaz_przeb"
+                    style="@android:style/Widget.Holo.Light.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/textView432ngfjhfg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4123nvcnnvc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ciśn. przeb" />
+
+                <EditText
+                    android:id="@+id/etap1_cisnienie_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap2_cisnienie_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap3_cisnienie_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textView432ngfjhfg22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BAR" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView42nvcnvc352"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Natęż. przeb" />
+
+                <EditText
+                    android:id="@+id/etap1_natezenie_przeb_procent"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap2_natezenie_przeb_procent"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap3_natezenie_przeb_procent"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textView4367"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView487nvcnvcncvvcbncnvc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Moc przeb." />
+
+                <EditText
+                    android:id="@+id/etap1_moc_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap2_moc_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap3_moc_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textView46nvcnvc53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView454bcxb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Częst. przeb" />
+
+                <EditText
+                    android:id="@+id/etap1_czestotliwosc_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap2_czestotliwosc_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap3_czestotliwosc_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textView432vcx123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hz" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView432kujk2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Szer. wiązki" />
+
+                <EditText
+                    android:id="@+id/etap1_szerokosc_wiazki"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap2_szerokosc_wiazki"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap3_szerokosc_wiazki"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textView43khgkhg333"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="x" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView44khkg442"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Focus przeb." />
+
+                <EditText
+                    android:id="@+id/etap1_focus_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberSigned|numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap2_focus_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberSigned|numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap3_focus_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberSigned|numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textView466hgh63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mm" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView477oioo72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Czas przeb." />
+
+                <EditText
+                    android:id="@+id/etap1_czas_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap2_czas_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap3_czas_przeb"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textView43hgfhfg999"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ms" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView420hghgf00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Przedmuch" />
+
+                <EditText
+                    android:id="@+id/etap1_przedmuch"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap2_przedmuch"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/etap3_przedmuch"
+                    style="@style/EditTextDisabledBlackText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="center_horizontal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textView43gfbv6436"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ms" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

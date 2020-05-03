@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:signature="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/signature_pad_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/customer_name_textView_signature_pad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/signature_pad_description"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/darker_gray">
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/signature_pad_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:text="podpis"
+            android:textColor="@android:color/darker_gray" />
+
+        <com.pl.metalmachines.utils.signatureutils.views.SignaturePad
+            android:id="@+id/signature_pad2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/buttons_container"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/prev_signature_pad"
+                style="@style/MyStyle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/my_button"
+                android:foreground="@drawable/ic_back_vector"
+                signature:layout_constraintStart_toStartOf="parent"
+                signature:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/clear_button"
+                style="@style/MyStyle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/my_button"
+                android:enabled="false"
+                android:foreground="@drawable/ic_clear_black_24dp"
+                signature:layout_constraintEnd_toStartOf="@+id/save_button"
+                signature:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/save_button"
+                style="@style/MyStyle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/my_button"
+                android:enabled="false"
+                android:foreground="@drawable/ic_check_black_24dp"
+                signature:layout_constraintEnd_toEndOf="parent"
+                signature:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+
+</LinearLayout>

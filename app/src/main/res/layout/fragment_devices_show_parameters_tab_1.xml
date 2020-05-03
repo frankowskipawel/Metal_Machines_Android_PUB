@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        style="@style/Widget.AppCompat.TextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_span="3"
+                        android:layout_weight="1"
+                        android:background="#D6D7D7"
+                        android:gravity="center"
+                        android:text="PARAMETRY GŁÓWNE"
+                        android:textColor="#A6000000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView422"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prędkość cięcia" />
+
+                    <EditText
+                        android:id="@+id/predkosc_ciecia_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:enabled="false"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal"
+                        android:shadowColor="#000C6D19" />
+
+                    <TextView
+                        android:id="@+id/textView436"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="m/min" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView427"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wysokość podnoszenia" />
+
+                    <EditText
+                        android:id="@+id/wysokosc_podnoszenia_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView433"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mm" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4221"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wysokość cięcia" />
+
+                    <EditText
+                        android:id="@+id/wysokosc_ciecia_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView4312"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mm" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView41232"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gaz cięcia" />
+
+                    <Spinner
+                        android:id="@+id/gaz_ciecia_spinner_ciecie"
+                        style="@android:style/Widget.Holo.Light.Spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView42352"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ciśnienie cięcia" />
+
+                    <EditText
+                        android:id="@+id/cisnienie_ciecia_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView4367"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BAR" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4278"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Natężenie cięcia" />
+
+                    <EditText
+                        android:id="@+id/natezenie_ciecia_procent_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView4309"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="%" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4542"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Moc cięcia" />
+
+                    <EditText
+                        android:id="@+id/moc_ciecia_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView432123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="%" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4322"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Częstotliwość przebiegu" />
+
+                    <EditText
+                        android:id="@+id/czestotliwosc_przebiegu_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView43333"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hz" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView44442"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Szerokość wiązki" />
+
+                    <EditText
+                        android:id="@+id/szerokosc_wiazki_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView46663"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="x" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView47772"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Focus" />
+
+                    <EditText
+                        android:id="@+id/focus_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberSigned|numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView43999"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mm" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView42000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Czas zwłoki" />
+
+                    <EditText
+                        android:id="@+id/czas_zwloki_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView436436"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ms" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView143"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Opóźnien. wył. wiązki" />
+
+                    <EditText
+                        android:id="@+id/opoznienie_wylaczenia_wiazki_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView431"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ms" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        style="@style/Widget.AppCompat.TextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_span="3"
+                        android:layout_weight="1"
+                        android:background="#D6D7D7"
+                        android:gravity="center"
+                        android:text="RUSZ WOLNO"
+                        android:textColor="#A6000000" />
+
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4434322"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Długość" />
+
+                    <EditText
+                        android:id="@+id/rusz_wolno_dlugosc_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView434342"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mm" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4264536"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prędkość" />
+
+                    <EditText
+                        android:id="@+id/rusz_wolno_predkosc_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView43876876"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="m/min" />
+                </TableRow>
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        style="@style/Widget.AppCompat.TextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_span="3"
+                        android:layout_weight="1"
+                        android:background="#D6D7D7"
+                        android:gravity="center"
+                        android:text="STOP. WOLNO"
+                        android:textColor="#A6000000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4276743"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Długość" />
+
+                    <EditText
+                        android:id="@+id/stop_wolno_dlugosc_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal"
+                        android:text="0" />
+
+                    <TextView
+                        android:id="@+id/textView455443"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mm" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView444332"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prędkość" />
+
+                    <EditText
+                        android:id="@+id/stop_wolno_predkosc_edit_text_ciecie"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:focusable="auto"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="m/min" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

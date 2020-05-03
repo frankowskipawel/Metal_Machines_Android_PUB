@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout_inspection_report_service"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.devices.service.DeviceInspectionReportFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp">
+
+        <Button
+
+
+            android:id="@+id/preview_button_device_inspection_report"
+            style="@style/MyStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/my_button"
+            android:foreground="@drawable/ic_back_vector"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+
+            android:id="@+id/ok_button_device_inspection_report"
+            style="@style/MyStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/my_button"
+            android:foreground="@drawable/ic_save_vector"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <ScrollView
+        android:id="@+id/scroll_view_device_inspection_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_in_scrollView_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:gravity="center"
+                android:text="PROTOKÓŁ PRZEGLĄDU SERWISOWEGO"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="Rodzaj maszyny / numer seryjny" />
+
+            <TextView
+
+                android:id="@+id/device_name_text_view_inspection_report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="Maszyna ..."
+                android:textColor="#000005"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:text="przegląd okresowy" />
+
+            <RadioGroup
+                android:id="@+id/period_service_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton6mcy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6 m-cy" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12mcy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12 m-cy" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18mcy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="18 m-cy" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24mcy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="24 m-ce" />
+
+                <RadioButton
+                    android:id="@+id/radioButton30mcy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="30 m-cy" />
+
+                <RadioButton
+                    android:id="@+id/radioButton36mcy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="36 m-cy" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonInny"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="inny" />
+
+                <EditText
+                    android:id="@+id/difrent_period_inspection_report"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:gravity="center"
+                android:text="UWAGI"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/description_device_inspection_report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:gravity="center"
+                android:text="CZYNNOŚCI SERWISOWE"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        style="@style/Widget.AppCompat.TextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_span="3"
+                        android:layout_weight="1"
+                        android:background="#D6D7D7"
+                        android:gravity="center"
+                        android:text="PARAMETRY WPALENIA"
+                        android:textColor="#A6000000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prędkość cięcia" />
+
+                    <EditText
+                        android:id="@+id/wpalenie_predkosc_ciecia"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:editable="false"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView436"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="m/min" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView427"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cykl pracy" />
+
+                    <EditText
+                        android:id="@+id/wpalenie_cykl_pracy"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:editable="false"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView433"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="%" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4221"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Częstotliwość" />
+
+                    <EditText
+                        android:id="@+id/wpalenie_czestotliwosc"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView4312"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hz" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        style="@style/Widget.AppCompat.TextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_span="3"
+                        android:layout_weight="1"
+                        android:background="#D6D7D7"
+                        android:gravity="center"
+                        android:text="WPALAJ WOLNO"
+                        android:textColor="#A6000000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView42352"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wysokość wpalania" />
+
+                    <EditText
+                        android:id="@+id/wpalenie_wysokosc_wpalania"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:editable="false"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView4367"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mm" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4278"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stabilna odległość" />
+
+                    <EditText
+                        android:id="@+id/wpalenie_stabilna_odleglosc"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:editable="false"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView4309"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="mm" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        style="@style/Widget.AppCompat.TextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_span="3"
+                        android:layout_weight="1"
+                        android:background="#D6D7D7"
+                        android:gravity="center"
+                        android:text="WPALAJ KOŁEM"
+                        android:textColor="#A6000000" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView4542"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prędkość" />
+
+                    <EditText
+                        android:id="@+id/wpalenie_predkosc"
+                        style="@style/EditTextDisabledBlackText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:editable="false"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:gravity="center_horizontal"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textView432123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="m/min" />
+                </TableRow>
+
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
