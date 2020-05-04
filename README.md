@@ -1,4 +1,7 @@
 # Metal Machines
+This application is for company dealing in sales and service metal machines cnc. This is a database these machines. Allows storage a specyfic parameters for devices. Generates a PDF document for a service event with an electronic sign.
+In this application used JAVA – ANDROID, JDBC technologies.
+
 
 <img src="readme_images\1.jpg" width="288" height="592" />    <img src="readme_images\30.jpg" width="288" height="592" />    <img src="readme_images\2.jpg" width="288" height="592" />
 
