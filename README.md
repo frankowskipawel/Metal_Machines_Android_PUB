@@ -21,6 +21,6 @@ Metal Machines is an application created for company that supplies and services 
 
 <img src="readme_images\24.jpg" width="268" height="572" />  <img src="readme_images\25.jpg" width="268" height="572" />  <img src="readme_images\26.jpg" width="268" height="572" />
 
-<img src="readme_images\27.jpg" width="268" height="572" />  <img src="readme_images\28.jpg" width="2868" height="572" />  <img src="readme_images\29.jpg" width="268" height="572" />
+<img src="readme_images\27.jpg" width="268" height="572" />  <img src="readme_images\28.jpg" width="268" height="572" />  <img src="readme_images\29.jpg" width="268" height="572" />
 
 <img src="readme_images\5.jpg" width="268" height="572" />  <img src="readme_images\31.jpg" width="268" height="572" />  <img src="readme_images\32.jpg" width="268" height="572" />
