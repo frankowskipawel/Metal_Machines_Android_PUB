@@ -2,7 +2,7 @@
 Metal Machines is an application created for company that supplies and services CNC machines. Application is a database for them and allows managing the servicing. It allows to store specific parameters unique for each of the machines. Application has an option of generating a PDF documents for service events with an electronic signature. To create it following technologies were used: JAVA – ANDROID, JDCB.
 
 
-<img src="readme_images\1.jpg" width="285" height="592" />    <img src="readme_images\30.jpg" width="288" height="592" />    <img src="readme_images\2.jpg" width="288" height="592" />
+<img src="readme_images\1.jpg" width="278" height="582" />    <img src="readme_images\30.jpg" width="278" height="582" />    <img src="readme_images\2.jpg" width="278" height="582" />
 
 <img src="readme_images\3.jpg" width="288" height="592" /> <img src="readme_images\4.jpg" width="288" height="592" />  <img src="readme_images\6.jpg" width="288" height="592" />
 
