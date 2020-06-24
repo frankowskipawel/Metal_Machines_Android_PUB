@@ -3,7 +3,7 @@ This application is for company dealing in sales and service metal machines cnc.
 In this application used JAVA – ANDROID, JDBC technologies.
 
 
-<img src="readme_images\1.jpg" width="288" height="592" />    <img src="readme_images\30.jpg" width="288" height="592" />    <img src="readme_images\2.jpg" width="288" height="592" />
+<img src="readme_images\1.jpg" width="278" height="582" />    <img src="readme_images\30.jpg" width="278" height="582" />    <img src="readme_images\2.jpg" width="278" height="582" />
 
 <img src="readme_images\3.jpg" width="288" height="592" /> <img src="readme_images\4.jpg" width="288" height="592" />  <img src="readme_images\6.jpg" width="288" height="592" />
 
