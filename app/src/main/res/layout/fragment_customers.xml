@@ -72,12 +72,23 @@
                     android:layout_margin="5dp"
                     android:background="@drawable/my_button"
                     android:foreground="@drawable/ic_search_vector" />
+
             </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar_customersList_fragment"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
 
             <ListView
                 android:id="@+id/listViewCustomersFragment"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent" >
+
+            </ListView>
+
         </LinearLayout>
 
     </LinearLayout>

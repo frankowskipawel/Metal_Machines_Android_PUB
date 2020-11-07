@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -13,11 +14,32 @@
             android:id="@+id/imageView4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:alpha="0.3"
+            android:alpha="0.4"
             android:scaleType="centerCrop"
-            app:srcCompat="@mipmap/background_laser" />
+            app:srcCompat="@mipmap/background_laser_3" />
 
     </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/version_textView_home_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="3dp"
+            android:text="version" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_home_fragment"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center" />
+    </FrameLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -78,6 +100,19 @@
                 android:alpha="0.8"
                 android:background="@drawable/my_button"
                 android:text="KATEGORIE"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/ic_launcher_background" />
+
+            <Button
+                android:id="@+id/usersButton"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="30dp"
+                android:alpha="0.8"
+                android:background="@drawable/my_button"
+                android:text="PRACOWNICY"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/ic_launcher_background" />
 

@@ -7,37 +7,37 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.pl.metalmachines.ui.home.HomeFragment"
+        android:name="com.paweldev.maszynypolskie.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_devices"
-        android:name="com.pl.metalmachines.ui.devices.DevicesListFragment"
+        android:name="com.paweldev.maszynypolskie.ui.devices.DevicesListFragment"
         android:label="@string/menu_devices"
         tools:layout="@layout/fragment_devices" />
 
     <fragment
         android:id="@+id/nav_customers"
-        android:name="com.pl.metalmachines.ui.customers.CustomersListFragment"
+        android:name="com.paweldev.maszynypolskie.ui.customers.CustomersListFragment"
         android:label="@string/menu_customers"
         tools:layout="@layout/fragment_customers" />
 
     <fragment
         android:id="@+id/nav_categories"
-        android:name="com.pl.metalmachines.ui.categories.CategoriesListFragment"
+        android:name="com.paweldev.maszynypolskie.ui.categories.CategoriesListFragment"
         android:label="@string/menu_categories"
         tools:layout="@layout/fragment_categories" />
 
     <fragment
         android:id="@+id/nav_settings"
-        android:name="com.pl.metalmachines.ui.settings.SettingsFragment"
+        android:name="com.paweldev.maszynypolskie.ui.settings.SettingsFragment"
         android:label="@string/menu_settings"
         tools:layout="@layout/fragment_settings" />
 
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.pl.metalmachines.ui.about.AboutFragment"
+        android:name="com.paweldev.maszynypolskie.ui.about.AboutFragment"
         android:label="@string/menu_about"
         tools:layout="@layout/fragment_about" />
 </navigation>

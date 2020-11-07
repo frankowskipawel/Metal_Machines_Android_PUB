@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Metal Machines</string>
+    <string name="app_name">Maszyny Polskie</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Metal Machines</string>
+    <string name="nav_header_title">Maszyny Polskie</string>
     <string name="nav_header_subtitle">niezalogowany</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Logowanie</string>
@@ -35,6 +35,6 @@
     <string name="devices_name">Nazwa Urządzenia</string>
     <string name="no_connection">Błąd połaczenia z bazą danych. Sprawdź połączenie internetowe.</string>
 
-    <item type="id" name="text1" />
-    <item type="id" name="text2" />
+    <item name="text1" type="id" />
+    <item name="text2" type="id" />
 </resources>

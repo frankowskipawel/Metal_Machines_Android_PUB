@@ -13,6 +13,19 @@
         android:layout_height="66dp">
 
         <Button
+            android:id="@+id/reject_button_add_service"
+            style="@style/MyStyle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginRight="88dp"
+            android:background="@drawable/my_button"
+            android:text="Odrzuć"
+            app:layout_constraintEnd_toStartOf="@+id/sign_button_add_service"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
 
             android:id="@+id/previev_button_add_new_service_fragment"
             style="@style/MyStyle"
@@ -28,7 +41,7 @@
         <Button
             android:id="@+id/save_button_add_service"
             style="@style/MyStyle"
-            android:layout_width="wrap_content"
+            android:layout_width="60dp"
             android:layout_height="50dp"
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
@@ -40,7 +53,7 @@
         <Button
             android:id="@+id/sign_button_add_service"
             style="@style/MyStyle"
-            android:layout_width="wrap_content"
+            android:layout_width="60dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
@@ -50,15 +63,16 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/reject_button_add_service"
+            android:id="@+id/delete_button_add_service"
             style="@style/MyStyle"
-            android:layout_width="wrap_content"
+            android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="5dp"
-            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             android:background="@drawable/my_button"
-            android:text="Odrzuć"
-            app:layout_constraintEnd_toStartOf="@+id/sign_button_add_service"
+            android:text="Usuń"
+            app:layout_constraintEnd_toStartOf="@+id/reject_button_add_service"
             app:layout_constraintTop_toTopOf="parent" />
 
 

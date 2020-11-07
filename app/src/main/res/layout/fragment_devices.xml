@@ -92,6 +92,14 @@
 
             </LinearLayout>
 
+            <ProgressBar
+                android:id="@+id/progressBar_devicesList_fragment"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center" />
+
             <ListView
                 android:id="@+id/listViewCustomersFragment"
                 android:layout_width="match_parent"

@@ -12,6 +12,18 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/delete_button_device_details_fragment"
+            style="@style/MyStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/my_button"
+            android:foreground="@drawable/ic_delete_vector"
+            app:layout_constraintEnd_toStartOf="@+id/edit_button_device_details_fragment"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
             android:id="@+id/preview_device_details_fragment"
             style="@style/MyStyle"
             android:layout_width="50dp"
@@ -33,16 +45,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
+
         <Button
-            android:id="@+id/delete_button_device_details_fragment"
+            android:id="@+id/gps_button_device_details_fragment"
             style="@style/MyStyle"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             android:background="@drawable/my_button"
-            android:foreground="@drawable/ic_delete_vector"
-            app:layout_constraintEnd_toStartOf="@+id/edit_button_device_details_fragment"
+            android:foreground="@drawable/ic_navigation_vector"
+            app:layout_constraintEnd_toStartOf="@+id/delete_button_device_details_fragment"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -91,6 +106,15 @@
             android:layout_weight="1"
             android:background="@drawable/my_button"
             android:text="Pliki" />
+
+        <Button
+            android:id="@+id/equipment_button_device_details_fragment"
+            style="@style/MyStyle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/my_button"
+            android:text="Części" />
 
         <Button
             android:id="@+id/service_button_device_details_fragment"
@@ -142,6 +166,13 @@
                 android:foreground="@drawable/ic_add_vector"
                 android:paddingRight="20dp" />
         </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar_deviceNotes_device_details_fragment"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
 
         <ListView
             android:id="@+id/notes_list_device_details_fragment"
